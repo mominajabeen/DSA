@@ -1,0 +1,23 @@
+class Solution {
+public:
+    vector<vector<int>>res;
+    vector<vector<int>> combinationSum(vector<int>& candidates, int target) {
+        vector<int> cur;
+        backtracking(candidates, target, cur, 0);
+        return res;
+    }
+private:
+    void backtracking(vector<int>& candidates, int target, vector<int>& cur, int i){
+        if(target == 0){
+            res.push_back(cur);
+            return;
+           }
+           if(target < 0 or i >= candidates.size()){
+            return;
+           }      
+           cur.push_back(candidates[i]);
+           backtracking(candidates, target - candidates[i], cur, i);
+           cur.pop_back();
+           backtracking(candidates, target, cur, i+1);
+    }
+};
