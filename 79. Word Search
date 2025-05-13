@@ -1,0 +1,36 @@
+class Solution {
+public:
+    bool exist(vector<vector<char>>& board, string word) {
+        int rows = board.size();
+        int cols = board[0].size();
+
+        // set<pair<int, int>> path;
+        for(int r = 0; r < rows; r++){
+            for(int c = 0; c < cols; c++){
+                if(dfs(board, word, rows, cols, r, c, 0)){
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+private:
+    bool dfs(vector<vector<char>>& board, string& word, int rows, int cols, int r, int c, int i){
+        if(i == word.length()){
+            return true;
+        }
+        if(r < 0 or c < 0 or
+        r >= rows or c >= cols or
+        word[i] != board[r][c]){
+            return false;
+        }
+        board[r][c] = '#';
+        bool res = dfs(board, word, rows, cols, r + 1, c, i+1) or
+         dfs(board, word, rows, cols, r, c + 1, i + 1) or
+        dfs(board, word, rows, cols, r - 1, c, i + 1) or
+        dfs(board, word, rows, cols, r, c - 1, i + 1);
+        board[r][c] = word[i];
+
+        return res;
+    }
+};
