@@ -1,0 +1,24 @@
+class Solution {
+public:
+    vector<string> letterCombinations(string digits) {
+        vector<string> res;
+        if(digits.empty())  return res;
+        string curStr;
+        vector<string> digitToChar = {"", "", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz"};
+        backtracking(digits, res, curStr, 0, digitToChar);
+        return res;
+    }
+    void backtracking(string& digits, vector<string>& res, string& curStr, int i, vector<string> digitToChar){
+        if(curStr.size() == digits.size()){
+            res.push_back(curStr);
+            return;
+        }
+        string chars = digitToChar[digits[i] - '0'];
+        for(char c:chars){
+            // curStr.push_back(c);
+            curStr = curStr + c;
+            backtracking(digits, res, curStr, i+1, digitToChar);
+            curStr.pop_back();
+        }
+    }
+};
