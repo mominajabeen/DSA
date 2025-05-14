@@ -1,0 +1,35 @@
+class Solution {
+public:
+    vector<vector<string>> partition(string s) {
+        vector<string> part;
+        vector<vector<string>> res;
+        dfs(s, part, res, 0, 0);
+        return res;
+    }
+private:
+    void dfs(string& s, vector<string>& part, vector<vector<string>>& res, int j, int i){
+        if(i >= s.size()){
+            if(i == j){
+                res.push_back(part);
+            }
+            return;
+        }
+        if(isPalindrome(s, j, i)){
+            part.push_back(s.substr(j, i-j+1));
+            dfs(s, part, res, i+1, i+1);
+            part.pop_back();
+        }
+        dfs(s, part, res, j, i + 1);
+    }
+
+    bool isPalindrome(string& s, int l, int r){
+        while(l < r){
+            if(s[l] != s[r]){
+                return false;
+            }
+            l++;
+            r--;
+        }
+        return true;
+    }
+};
