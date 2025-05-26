@@ -1,0 +1,37 @@
+class Solution {
+public:
+    bool canFinish(int numCourses, vector<vector<int>>& prerequisites) {
+        // map each courese to it's prerequistes
+        unordered_map<int, vector<int>> preMap;
+
+        // store all courses along the current dfs path
+        unordered_set<int> visited;
+
+        for(int i = 0; i < numCourses; i++){
+            preMap[i] = {};
+        }
+
+        for(auto const& pre:prerequisites){
+            preMap[pre[0]].push_back(pre[1]);
+        }
+        for(int c = 0; c < numCourses; c++){
+            if(!dfs(c, preMap, visited))    return false;
+        }
+        return true;
+    }
+private:
+    bool dfs(int c, unordered_map<int, vector<int>>& preMap, unordered_set<int>& visited){
+        if(visited.count(c))    return false;
+
+        if(preMap[c].empty())   return true;
+
+        visited.insert(c);
+
+        for(int pre:preMap[c]){
+            if(!dfs(pre, preMap, visited))    return false;
+        }
+        visited.erase(c);
+        preMap[c].clear();
+        return true;
+    }
+};
