@@ -1,0 +1,24 @@
+class Solution {
+public:
+    bool wordBreak(string s, vector<string>& wordDict) {
+        unordered_map<int, bool> memo;
+        memo[s.length()] = true;
+        return dfs(s, wordDict, memo, 0);
+    }
+private:
+    bool dfs(string& s, vector<string>& wordDict, unordered_map<int, bool>& memo, int i){
+        if(memo.find(i) != memo.end())  return memo[i];
+
+        for(auto const& w: wordDict){
+            if(i + w.length() <= s.length() &&
+            s.substr(i, w.length()) == w){
+                if(dfs(s, wordDict, memo, i+w.length())){
+                    memo[i] = true;
+                    return true;
+                }
+            }
+        }
+        memo[i] = false;
+        return false;
+    }
+};
