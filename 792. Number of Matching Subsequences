@@ -1,0 +1,28 @@
+class Solution {
+public:
+    int numMatchingSubseq(string s, vector<string>& words) {
+        map<string, bool> mp;
+        int count = 0;
+        for(auto w:words){
+            if(mp.find(w) != mp.end()){
+                if(mp[w] == true)   count++;
+                continue;
+            }
+            mp[w] = isSubsequence(s, w);
+            count += (mp[w] == true);
+        }
+        return count;
+    }
+private:
+    bool isSubsequence(string s, string w){
+        int i = 0, j = 0;
+        while(i < s.size() && j < w.size()){
+            if(s[i] == w[j]){
+                i++;
+                j++;
+            }
+            else    i++;
+        }
+        return j == w.size();
+    }
+};
