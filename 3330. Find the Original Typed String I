@@ -1,0 +1,16 @@
+class Solution {
+public:
+    int possibleStringCount(string word) {
+        int i = 0, res = 1, n = word.size();
+
+        while(i < n){
+            int j = i;
+            while(j < n && word[j] == word[i]){
+                j++;
+            }
+            res += j - i - 1;
+            i = j;
+        }
+        return res;
+    }
+};
