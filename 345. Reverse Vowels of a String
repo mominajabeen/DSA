@@ -1,0 +1,23 @@
+class Solution {
+public:
+    string reverseVowels(string s) {
+        string vowels = "aeiouAEIOU";
+
+        // convert strig s to a character array
+        vector<char> array(s.begin(), s.end());
+        int first = 0, last = s.size() - 1;
+
+        while(first < last){
+            // increament until first vowel is found
+            while(first < last && vowels.find(array[first]) == string::npos){
+                first++;
+            }
+            // decrement until last vowel is found
+            while(last > first && vowels.find(array[last]) == string::npos) 
+                last--;
+            
+            swap(array[first++], array[last--]);
+        }
+        return string(array.begin(), array.end());
+    }
+};
