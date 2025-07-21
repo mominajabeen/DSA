@@ -1,0 +1,22 @@
+class Solution {
+public:
+    bool isAnagram(string s, string t) {
+        // check if length of both strings are equal, if not return false
+        if(s.size() != t.size())
+            return false;
+    // create the hash map to calculate the frequencies of all characters in s and t
+        unordered_map<char, int> freqMap;
+        for(int i = 0; i < s.size(); i++){
+            // increament the freq of character in string s
+            freqMap[s[i]]++;
+            // decreament the freq of character in string t
+            freqMap[t[i]]--;
+        }
+        // check if frequency of all characters is 0
+        for(const auto& [chr, frq]: freqMap){
+            if(frq != 0)      return false;
+        }
+        // if freq of all characters is 0 it means t is an anagram of s
+        return true;
+    }
+};
