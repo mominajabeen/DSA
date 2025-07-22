@@ -1,0 +1,16 @@
+class Solution {
+public:
+    int numIdenticalPairs(vector<int>& nums) {
+        int pairCount = 0;
+        unordered_map<int, int> map;
+
+        for(auto num : nums){
+            // increament the count in the map
+            map[num]++; 
+            /*every new occurance of the number can be paired with every previous occurance of that number
+            so if the number has appeared p times, we will have p-1 new pairs*/
+            pairCount += map[num] - 1;
+        }
+        return pairCount;
+    }
+};
