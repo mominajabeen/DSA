@@ -1,0 +1,29 @@
+class Solution {
+public:
+    vector<int> sortedSquares(vector<int>& nums) {
+        int n = nums.size();
+        // create a vector to store squares
+        vector<int> squares(n);
+        // initialize two pointers
+        int left = 0, right = n - 1;
+        // initialize the  index for the heighest square
+        int heightestSquareIdx = n - 1;
+        int leftSquare, rightSquare;
+        // iterate until left and right pointers meet or cross each other
+        while(left <= right){
+            leftSquare = nums[left] * nums[left];
+            rightSquare = nums[right] * nums[right];
+            if(leftSquare > rightSquare){
+                // store the largest square at the heighest availabe position
+                squares[heightestSquareIdx--] = leftSquare;
+                left++;
+            }
+            else{
+                squares[heightestSquareIdx--] = rightSquare;
+                right--;
+            }
+        }
+        return squares;
+
+    }
+};
