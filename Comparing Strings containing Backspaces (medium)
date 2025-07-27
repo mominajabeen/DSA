@@ -1,0 +1,39 @@
+using namespace std;
+
+#include <iostream>
+#include <string>
+
+class Solution {
+public:
+  static bool compare(const string &str1, const string &str2) {
+    int index1 = str1.size() - 1, index2 = str2.size() - 1;
+    while(index1 >= 0 && index2 >= 0){
+      int i1 = findNextValidIndex(str1, index1);
+      int i2 = findNextValidIndex(str2, index2);
+
+      if(i1 < 0 && i2 < 0)  return true;
+      if(i1 < 0 or i2 < 0)  return false;
+
+      if(str1[i1] != str2[i2])  return false;
+
+      index1 = i1 - 1;
+      index2 = i2 - 1;
+    }
+    return true;
+  }
+private:
+  static int findNextValidIndex(const string& str, int index){
+    int backSpaceCount = 0;
+    while(index >= 0){
+      if(str[index] == '#'){
+        backSpaceCount++;
+      }
+      else if(backSpaceCount > 0){
+        backSpaceCount--;
+      }
+      else  break;
+      index--;
+    }
+    return index;
+  }
+};
