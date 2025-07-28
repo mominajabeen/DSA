@@ -1,0 +1,33 @@
+using namespace std;
+
+#include <iostream>
+#include <limits>
+#include <vector>
+
+class Solution {
+public:
+  static int sort(const vector<int>& arr) {
+    int low = 0, high = arr.size() - 1;
+
+    while(low < arr.size() - 1 && arr[low] <= arr[low + 1])
+      low++;
+    if(low == arr.size() - 1) return 0;
+
+    while(high > 0 && arr[high] >= arr[high - 1])
+      high--;
+
+    int subArrMax = numeric_limits<int>::min(), subArrMin = numeric_limits<int>::max();
+
+    for(int k = low; k <=high; k++){
+      subArrMin = min(subArrMin, arr[k]);
+      subArrMax = max(subArrMax, arr[k]);
+    }   
+
+    while(low > 0 && subArrMin < arr[low - 1]){
+      low--;
+    }
+    while(high < arr.size() - 1 && subArrMax > arr[high + 1])
+      high++;
+    return high - low + 1;
+  }
+};
