@@ -1,0 +1,27 @@
+using namespace std;
+
+#include <iostream>
+
+/*class ListNode {
+public:
+  int val = 0;
+  ListNode *next;
+
+  ListNode(int value) {
+    this->val = value;
+    next = nullptr;
+  }
+};*/
+
+class Solution {
+public:
+  ListNode *findMiddle(ListNode *head) {
+    ListNode *slow = head;
+    ListNode *fast = head;
+    while(fast && fast->next){
+      fast = fast->next->next;
+      slow = slow->next;
+    }
+    return slow;
+  }
+};
