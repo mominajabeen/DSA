@@ -1,0 +1,54 @@
+using namespace std;
+#include <iostream>
+
+/*class ListNode {
+public:
+  int val = 0;
+  ListNode *next;
+
+  ListNode(int value) {
+    this->val = value;
+    next = nullptr;
+  }
+};*/
+
+class Solution {
+public:
+  ListNode* reorder(ListNode *head) {
+    if(head == nullptr or head->next == nullptr)  return head;
+
+    ListNode * slow = head, *fast = head;
+    while(fast && fast->next){
+      slow = slow->next;
+      fast = fast->next->next;
+    }
+
+    ListNode *headSecondHalf = reverse(slow);
+    ListNode *headFirstHalf = head;
+
+    while(headFirstHalf != nullptr && headSecondHalf != nullptr){
+      ListNode *temp = headFirstHalf->next;
+      headFirstHalf->next = headSecondHalf;
+      headFirstHalf = temp;
+
+      temp = headSecondHalf->next;
+      headSecondHalf->next = headFirstHalf;
+      headSecondHalf = temp;
+    }
+    if(headFirstHalf != nullptr)
+      headFirstHalf->next = nullptr;
+    
+    return head;
+  }
+private:
+  static ListNode *reverse(ListNode *head){
+    ListNode *prev = nullptr;
+    while(head){
+      ListNode *next = head->next;
+      head->next = prev;
+      prev = head;
+      head = next;
+    }
+    return prev;
+  }
+};
