@@ -1,0 +1,27 @@
+using namespace std;
+
+#include <iostream>
+#include <unordered_map>
+#include <vector>
+
+class Solution
+{
+public:
+    int findLength(const vector<char> &arr)
+    {
+        int maxLength = 0, windowStart = 0;
+        unordered_map<char, int> fruitFreqMap;
+        
+        for(int windowEnd = 0; windowEnd < arr.size(); windowEnd++){
+            fruitFreqMap[arr[windowEnd]]++;
+            while((int)fruitFreqMap.size() > 2){
+                fruitFreqMap[arr[windowStart]]--;
+                if(fruitFreqMap[arr[windowStart]] == 0)
+                    fruitFreqMap.erase(arr[windowStart]);
+                windowStart++;
+            }
+            maxLength = max(maxLength, (windowEnd - windowStart + 1));
+        }
+        return maxLength;
+    }
+};
