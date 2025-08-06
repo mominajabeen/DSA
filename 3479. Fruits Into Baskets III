@@ -1,0 +1,45 @@
+class Solution {
+public:
+    int numOfUnplacedFruits(vector<int>& fruits, vector<int>& baskets) {
+        int n = baskets.size();
+        int N = 1;
+        while(N <= n)   N <<= 1;// smallest power of 2 >= n(need for building a segment tree)
+
+        vector<int> segTree(N << 1); //create a segment tree array of size 2 * N
+        //segment tree support range maximum quaries and updates
+        //leaves of the tree(N to N + n - 1) will store baskets capacities
+        for(int i = 0; i < n; ++i){
+            // initialize the leaf nodes of the tree wiht baskets capacities
+            segTree[N + i] = baskets[i];
+        }
+// build the rest of the segment tree 
+//by storing the maximum capacity of each internal node
+        for(int i = N - 1; i > 0; --i){
+            segTree[i] = max(segTree[2 * i] , segTree[2 * i + 1]);
+        }
+        int count = 0;// loop through each fruit
+        for(int fruit : fruits){
+            int index = 1;// start from the root node of segmentTree
+            if(segTree[index] < fruit){
+     // if max value in the tree is less than the fruit size then no basket can hold this fruit
+                count++;
+                continue;
+            }// binary search like descent
+            while(index < N){
+        // traverse down the segment tree to find the left most basket that can hold the fruit
+        //at each step check the left child, if it has capacity then go left else go right
+                if(segTree[2 * index] >= fruit)
+                    index = 2 * index;
+                else 
+                    index = 2 * index + 1;
+            }
+            segTree[index] = -1;// mark the basket as used
+            // update the segment tree upword to reflect the removal of the basket
+            while(index > 1){
+                index >>= 1;
+                segTree[index] = max(segTree[index * 2], segTree[index * 2 + 1]);
+            }
+        }
+        return count; // return the number of fruits that can not be placed in any basket
+    }
+};
