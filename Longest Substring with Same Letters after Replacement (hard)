@@ -1,0 +1,29 @@
+using namespace std;
+
+#include <iostream>
+#include <string>
+#include <unordered_map>
+
+class Solution
+{
+public:
+    int findLength(const string &str, int k)
+    {
+      int maxLength = 0, windowStart = 0, maxRepeatLetterCount = 0;
+      unordered_map<char, int> letterFreqMap;
+      
+      for(int windowEnd = 0; windowEnd < str.length(); windowEnd++){
+        char rightChar = str[windowEnd];
+        letterFreqMap[rightChar]++;
+
+        maxRepeatLetterCount = max(maxRepeatLetterCount, letterFreqMap[rightChar]);
+
+        if(windowEnd - windowStart + 1 - maxRepeatLetterCount > k){
+          letterFreqMap[str[windowStart]]--;
+          windowStart++;
+        }
+        maxLength = max(maxLength, windowEnd - windowStart + 1);
+      }
+      return maxLength;
+    }
+};
