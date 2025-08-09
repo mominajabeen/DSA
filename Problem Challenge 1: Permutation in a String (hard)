@@ -1,0 +1,40 @@
+
+using namespace std;
+
+#include <iostream>
+#include <string>
+#include <unordered_map>
+
+class Solution
+{
+public:
+    bool findPermutation(const string &str, const string &pattern)
+    {
+        unordered_map<char, int> charFreqMap;
+        for(char ch: pattern)
+            charFreqMap[ch]++;
+
+        int matched = 0, windowStart = 0;
+        for(int windowEnd = 0; windowEnd < str.length(); windowEnd++){
+            char rightChar = str[windowEnd];
+
+            if(charFreqMap.find(rightChar) != charFreqMap.end()){
+                charFreqMap[rightChar]--;
+                if(charFreqMap[rightChar] == 0){
+                    matched++;
+                }
+            }
+            if(matched == (int)charFreqMap.size())   return true;
+
+            if(windowEnd >= pattern.length() - 1){
+                char leftChar = str[windowStart++];
+                if(charFreqMap.find(leftChar) != charFreqMap.end()){
+                    if(charFreqMap[leftChar] == 0)
+                        matched--;
+                    charFreqMap[leftChar]++;
+            }
+        }
+        }
+        return false;
+    }
+};
