@@ -9,12 +9,18 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0326-power-of-three](https://github.com/mominajabeen/DSA/tree/master/0326-power-of-three) |
+| [0342-power-of-four](https://github.com/mominajabeen/DSA/tree/master/0342-power-of-four) |
 ## Recursion
 |  |
 | ------- |
 | [0326-power-of-three](https://github.com/mominajabeen/DSA/tree/master/0326-power-of-three) |
+| [0342-power-of-four](https://github.com/mominajabeen/DSA/tree/master/0342-power-of-four) |
 ## String
 |  |
 | ------- |
 | [2346-largest-3-same-digit-number-in-string](https://github.com/mominajabeen/DSA/tree/master/2346-largest-3-same-digit-number-in-string) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0342-power-of-four](https://github.com/mominajabeen/DSA/tree/master/0342-power-of-four) |
 <!---LeetCode Topics End-->
