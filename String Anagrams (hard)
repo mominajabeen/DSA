@@ -1,0 +1,47 @@
+
+using namespace std;
+
+#include <iostream>
+#include <string>
+#include <unordered_map>
+#include <vector>
+
+class Solution
+{
+public:
+    vector<int> findStringAnagrams(const string &str, const string &pattern)
+    {
+      vector<int> resultIndices;
+      int windowStart = 0, matches = 0;
+      unordered_map<char, int> charFreqCount;
+
+      for(auto chr : pattern){
+        charFreqCount[chr]++;
+      }
+      for(int windowEnd = 0; windowEnd < str.size(); windowEnd++){
+        
+        char rightChar = str[windowEnd];
+        
+        if(charFreqCount.find(rightChar) != charFreqCount.end()){
+          charFreqCount[rightChar]--;
+          if(charFreqCount[rightChar] == 0){
+            matches++;
+          }
+        }
+        
+        if(matches == (int)charFreqCount.size())
+          resultIndices.push_back(windowStart);
+        
+        if(windowEnd >= pattern.length() - 1){
+          char leftChar = str[windowStart++];
+          if(charFreqCount.find(leftChar) != charFreqCount.end()){
+            if(charFreqCount[leftChar] == 0){
+              matches--;
+            }
+            charFreqCount[leftChar]++;
+          }
+        }
+      }
+      return resultIndices;
+    }
+};
