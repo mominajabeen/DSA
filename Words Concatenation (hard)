@@ -1,0 +1,42 @@
+
+using namespace std;
+
+#include <iostream>
+#include <string>
+#include <unordered_map>
+#include <vector>
+
+class Solution
+{
+public:
+    vector<int> findWordConcatenation(const string &str,
+                                            const vector<string> &words)
+    {
+      vector<int> resultIndices;
+      unordered_map<string, int> wordFreqMap;
+
+      for(string word : words){
+        wordFreqMap[word]++;
+      }
+
+      int wordsCount = words.size(), wordLength = words[0].size();
+      for(int i = 0; i <= int(str.size() - wordsCount * wordsCount); i++){
+        unordered_map<string, int> wordSeen;
+
+        for(int j = 0; j < wordsCount; j++){
+          int nextWordIndx = i + j * wordLength;
+          string word = str.substr(nextWordIndx, wordLength);
+          if(wordFreqMap.find(word) == wordFreqMap.end())
+            break;
+          wordSeen[word]++;
+          if(wordSeen[word] > wordFreqMap[word])
+            break;
+          if(j + 1 == wordsCount)
+            resultIndices.push_back(i);
+        }
+
+      }
+      
+      return resultIndices;
+    }
+};
