@@ -1,0 +1,30 @@
+using namespace std;
+
+#include <iostream>
+#include <vector>
+
+class Solution {
+public:
+  vector<vector<int>> findSubarrays(const vector<int>& arr, int target) {
+    vector<vector<int>> result;
+    double product = 1;
+    
+
+    int left = 0, length = 0;
+
+    for(int right = 0; right < arr.size(); right++){
+      product *= arr[right];
+      
+      while(product >= target && left < arr.size()){
+        product /= arr[left++];
+      }
+      vector<int> templist;
+
+      for(int i = right; i >= left; i--){
+        templist.insert(templist.begin(), arr[i]);
+        result.push_back(templist);
+      }
+    }
+    return result;
+  }
+};
