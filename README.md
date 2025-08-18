@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0326-power-of-three](https://github.com/mominajabeen/DSA/tree/master/0326-power-of-three) |
 | [0342-power-of-four](https://github.com/mominajabeen/DSA/tree/master/0342-power-of-four) |
+| [0679-24-game](https://github.com/mominajabeen/DSA/tree/master/0679-24-game) |
 | [0867-new-21-game](https://github.com/mominajabeen/DSA/tree/master/0867-new-21-game) |
 | [1448-maximum-69-number](https://github.com/mominajabeen/DSA/tree/master/1448-maximum-69-number) |
 ## Recursion
@@ -38,4 +39,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0867-new-21-game](https://github.com/mominajabeen/DSA/tree/master/0867-new-21-game) |
+## Array
+|  |
+| ------- |
+| [0679-24-game](https://github.com/mominajabeen/DSA/tree/master/0679-24-game) |
+## Backtracking
+|  |
+| ------- |
+| [0679-24-game](https://github.com/mominajabeen/DSA/tree/master/0679-24-game) |
 <!---LeetCode Topics End-->
