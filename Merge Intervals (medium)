@@ -1,0 +1,46 @@
+using namespace std;
+
+#include <algorithm>
+#include <iostream>
+#include <vector>
+
+/*class Interval {
+public:
+  int start = 0;
+  int end = 0;
+
+  Interval(int start, int end) {
+    this->start = start;
+    this->end = end;
+  }
+};*/
+
+class Solution {
+public:
+  vector<Interval> merge(vector<Interval> &intervals) {
+    vector<Interval> mergedIntervals;
+    if(intervals.size() < 2)  return intervals;
+    //sort the intervals
+    sort(intervals.begin(), intervals.end(),
+        [](const Interval &x, const Interval &y) { return x.start < y.start; });
+
+    vector<Interval>::const_iterator intervalItr = intervals.begin();
+    Interval interval = *intervalItr++;
+    int start = interval.start;
+    int end = interval.end;
+    while(intervalItr != intervals.end()){
+      interval = *intervalItr++;
+      if(interval.start <= end){
+        end = max(interval.end, end);
+      }
+      else{
+        mergedIntervals.push_back({start, end});
+        start = interval.start;
+        end = interval.end;
+      }
+    }
+    mergedIntervals.push_back({start, end});
+    
+    return mergedIntervals;
+  }
+};
