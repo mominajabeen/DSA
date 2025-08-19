@@ -14,6 +14,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0679-24-game](https://github.com/mominajabeen/DSA/tree/master/0679-24-game) |
 | [0867-new-21-game](https://github.com/mominajabeen/DSA/tree/master/0867-new-21-game) |
 | [1448-maximum-69-number](https://github.com/mominajabeen/DSA/tree/master/1448-maximum-69-number) |
+| [2432-number-of-zero-filled-subarrays](https://github.com/mominajabeen/DSA/tree/master/2432-number-of-zero-filled-subarrays) |
 ## Recursion
 |  |
 | ------- |
@@ -43,6 +44,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0679-24-game](https://github.com/mominajabeen/DSA/tree/master/0679-24-game) |
+| [2432-number-of-zero-filled-subarrays](https://github.com/mominajabeen/DSA/tree/master/2432-number-of-zero-filled-subarrays) |
 ## Backtracking
 |  |
 | ------- |
