@@ -49,6 +49,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1402-count-square-submatrices-with-all-ones](https://github.com/mominajabeen/DSA/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1628-count-submatrices-with-all-ones](https://github.com/mominajabeen/DSA/tree/master/1628-count-submatrices-with-all-ones) |
 | [2432-number-of-zero-filled-subarrays](https://github.com/mominajabeen/DSA/tree/master/2432-number-of-zero-filled-subarrays) |
+| [3459-find-the-minimum-area-to-cover-all-ones-ii](https://github.com/mominajabeen/DSA/tree/master/3459-find-the-minimum-area-to-cover-all-ones-ii) |
 | [3461-find-the-minimum-area-to-cover-all-ones-i](https://github.com/mominajabeen/DSA/tree/master/3461-find-the-minimum-area-to-cover-all-ones-i) |
 ## Backtracking
 |  |
@@ -59,6 +60,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/mominajabeen/DSA/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1628-count-submatrices-with-all-ones](https://github.com/mominajabeen/DSA/tree/master/1628-count-submatrices-with-all-ones) |
+| [3459-find-the-minimum-area-to-cover-all-ones-ii](https://github.com/mominajabeen/DSA/tree/master/3459-find-the-minimum-area-to-cover-all-ones-ii) |
 | [3461-find-the-minimum-area-to-cover-all-ones-i](https://github.com/mominajabeen/DSA/tree/master/3461-find-the-minimum-area-to-cover-all-ones-i) |
 ## Stack
 |  |
@@ -68,4 +70,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1628-count-submatrices-with-all-ones](https://github.com/mominajabeen/DSA/tree/master/1628-count-submatrices-with-all-ones) |
+## Enumeration
+|  |
+| ------- |
+| [3459-find-the-minimum-area-to-cover-all-ones-ii](https://github.com/mominajabeen/DSA/tree/master/3459-find-the-minimum-area-to-cover-all-ones-ii) |
 <!---LeetCode Topics End-->
