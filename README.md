@@ -50,6 +50,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0036-valid-sudoku](https://github.com/mominajabeen/DSA/tree/master/0036-valid-sudoku) |
+| [0037-sudoku-solver](https://github.com/mominajabeen/DSA/tree/master/0037-sudoku-solver) |
 | [0498-diagonal-traverse](https://github.com/mominajabeen/DSA/tree/master/0498-diagonal-traverse) |
 | [0679-24-game](https://github.com/mominajabeen/DSA/tree/master/0679-24-game) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/mominajabeen/DSA/tree/master/1402-count-square-submatrices-with-all-ones) |
@@ -64,11 +65,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Backtracking
 |  |
 | ------- |
+| [0037-sudoku-solver](https://github.com/mominajabeen/DSA/tree/master/0037-sudoku-solver) |
 | [0679-24-game](https://github.com/mominajabeen/DSA/tree/master/0679-24-game) |
 ## Matrix
 |  |
 | ------- |
 | [0036-valid-sudoku](https://github.com/mominajabeen/DSA/tree/master/0036-valid-sudoku) |
+| [0037-sudoku-solver](https://github.com/mominajabeen/DSA/tree/master/0037-sudoku-solver) |
 | [0498-diagonal-traverse](https://github.com/mominajabeen/DSA/tree/master/0498-diagonal-traverse) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/mominajabeen/DSA/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1628-count-submatrices-with-all-ones](https://github.com/mominajabeen/DSA/tree/master/1628-count-submatrices-with-all-ones) |
@@ -104,4 +107,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0036-valid-sudoku](https://github.com/mominajabeen/DSA/tree/master/0036-valid-sudoku) |
+| [0037-sudoku-solver](https://github.com/mominajabeen/DSA/tree/master/0037-sudoku-solver) |
 <!---LeetCode Topics End-->
