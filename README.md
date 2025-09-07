@@ -17,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0342-power-of-four](https://github.com/mominajabeen/DSA/tree/master/0342-power-of-four) |
 | [0679-24-game](https://github.com/mominajabeen/DSA/tree/master/0679-24-game) |
 | [0867-new-21-game](https://github.com/mominajabeen/DSA/tree/master/0867-new-21-game) |
+| [1426-find-n-unique-integers-sum-up-to-zero](https://github.com/mominajabeen/DSA/tree/master/1426-find-n-unique-integers-sum-up-to-zero) |
 | [1448-maximum-69-number](https://github.com/mominajabeen/DSA/tree/master/1448-maximum-69-number) |
 | [2432-number-of-zero-filled-subarrays](https://github.com/mominajabeen/DSA/tree/master/2432-number-of-zero-filled-subarrays) |
 | [3277-find-the-number-of-ways-to-place-people-ii](https://github.com/mominajabeen/DSA/tree/master/3277-find-the-number-of-ways-to-place-people-ii) |
@@ -61,6 +62,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0498-diagonal-traverse](https://github.com/mominajabeen/DSA/tree/master/0498-diagonal-traverse) |
 | [0679-24-game](https://github.com/mominajabeen/DSA/tree/master/0679-24-game) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/mominajabeen/DSA/tree/master/1402-count-square-submatrices-with-all-ones) |
+| [1426-find-n-unique-integers-sum-up-to-zero](https://github.com/mominajabeen/DSA/tree/master/1426-find-n-unique-integers-sum-up-to-zero) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/mominajabeen/DSA/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [1628-count-submatrices-with-all-ones](https://github.com/mominajabeen/DSA/tree/master/1628-count-submatrices-with-all-ones) |
 | [1917-maximum-average-pass-ratio](https://github.com/mominajabeen/DSA/tree/master/1917-maximum-average-pass-ratio) |
