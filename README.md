@@ -36,6 +36,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2346-largest-3-same-digit-number-in-string](https://github.com/mominajabeen/DSA/tree/master/2346-largest-3-same-digit-number-in-string) |
+| [2887-sort-vowels-in-a-string](https://github.com/mominajabeen/DSA/tree/master/2887-sort-vowels-in-a-string) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -123,6 +124,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sorting
 |  |
 | ------- |
+| [2887-sort-vowels-in-a-string](https://github.com/mominajabeen/DSA/tree/master/2887-sort-vowels-in-a-string) |
 | [3277-find-the-number-of-ways-to-place-people-ii](https://github.com/mominajabeen/DSA/tree/master/3277-find-the-number-of-ways-to-place-people-ii) |
 | [3278-find-the-number-of-ways-to-place-people-i](https://github.com/mominajabeen/DSA/tree/master/3278-find-the-number-of-ways-to-place-people-i) |
 | [3748-sort-matrix-by-diagonals](https://github.com/mominajabeen/DSA/tree/master/3748-sort-matrix-by-diagonals) |
