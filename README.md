@@ -37,6 +37,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1006-vowel-spellchecker](https://github.com/mominajabeen/DSA/tree/master/1006-vowel-spellchecker) |
+| [1264-maximum-number-of-words-you-can-type](https://github.com/mominajabeen/DSA/tree/master/1264-maximum-number-of-words-you-can-type) |
 | [2346-largest-3-same-digit-number-in-string](https://github.com/mominajabeen/DSA/tree/master/2346-largest-3-same-digit-number-in-string) |
 | [2887-sort-vowels-in-a-string](https://github.com/mominajabeen/DSA/tree/master/2887-sort-vowels-in-a-string) |
 | [3462-vowels-game-in-a-string](https://github.com/mominajabeen/DSA/tree/master/3462-vowels-game-in-a-string) |
@@ -139,6 +140,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0036-valid-sudoku](https://github.com/mominajabeen/DSA/tree/master/0036-valid-sudoku) |
 | [0037-sudoku-solver](https://github.com/mominajabeen/DSA/tree/master/0037-sudoku-solver) |
 | [1006-vowel-spellchecker](https://github.com/mominajabeen/DSA/tree/master/1006-vowel-spellchecker) |
+| [1264-maximum-number-of-words-you-can-type](https://github.com/mominajabeen/DSA/tree/master/1264-maximum-number-of-words-you-can-type) |
 | [1834-minimum-number-of-people-to-teach](https://github.com/mominajabeen/DSA/tree/master/1834-minimum-number-of-people-to-teach) |
 | [3872-find-most-frequent-vowel-and-consonant](https://github.com/mominajabeen/DSA/tree/master/3872-find-most-frequent-vowel-and-consonant) |
 ## Heap (Priority Queue)
