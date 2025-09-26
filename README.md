@@ -39,6 +39,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0020-valid-parentheses](https://github.com/mominajabeen/DSA/tree/master/0020-valid-parentheses) |
 | [0165-compare-version-numbers](https://github.com/mominajabeen/DSA/tree/master/0165-compare-version-numbers) |
 | [0166-fraction-to-recurring-decimal](https://github.com/mominajabeen/DSA/tree/master/0166-fraction-to-recurring-decimal) |
 | [1006-vowel-spellchecker](https://github.com/mominajabeen/DSA/tree/master/1006-vowel-spellchecker) |
@@ -123,6 +124,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Stack
 |  |
 | ------- |
+| [0020-valid-parentheses](https://github.com/mominajabeen/DSA/tree/master/0020-valid-parentheses) |
 | [1628-count-submatrices-with-all-ones](https://github.com/mominajabeen/DSA/tree/master/1628-count-submatrices-with-all-ones) |
 | [2307-replace-non-coprime-numbers-in-array](https://github.com/mominajabeen/DSA/tree/master/2307-replace-non-coprime-numbers-in-array) |
 ## Monotonic Stack
