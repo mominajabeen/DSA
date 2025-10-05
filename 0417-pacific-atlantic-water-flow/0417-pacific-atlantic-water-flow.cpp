@@ -2,7 +2,7 @@ class Solution {
     vector<pair<int, int>> directions = {{1,0}, {-1, 0}, {0, 1}, {0, -1}};
 public:
     
-    vector<vector<int>> pacificAtlantic(vector<vector<int>>& heights) {
+    vector<vector<int>> pacificAtlantic(vector<vector<int>>& heights) { 
         
         int ROWS = heights.size(), COLS = heights[0].size();
         vector<vector<bool>> pac(ROWS, vector<bool>(COLS, false));
