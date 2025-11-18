@@ -130,6 +130,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0498-diagonal-traverse](https://github.com/mominajabeen/DSA/tree/master/0498-diagonal-traverse) |
 | [0611-valid-triangle-number](https://github.com/mominajabeen/DSA/tree/master/0611-valid-triangle-number) |
 | [0679-24-game](https://github.com/mominajabeen/DSA/tree/master/0679-24-game) |
+| [0717-1-bit-and-2-bit-characters](https://github.com/mominajabeen/DSA/tree/master/0717-1-bit-and-2-bit-characters) |
 | [0794-swim-in-rising-water](https://github.com/mominajabeen/DSA/tree/master/0794-swim-in-rising-water) |
 | [0830-largest-triangle-area](https://github.com/mominajabeen/DSA/tree/master/0830-largest-triangle-area) |
 | [1006-vowel-spellchecker](https://github.com/mominajabeen/DSA/tree/master/1006-vowel-spellchecker) |
