@@ -5,10 +5,9 @@ public:
         for(int n : nums){
             set.insert(n);
         }
-        bool flag = true;
-        while(flag){
+        while(true){
             if(set.find(original) != set.end()) original *= 2;
-            else    flag = false;
+            else    return original;
         }
         return original;
     }
