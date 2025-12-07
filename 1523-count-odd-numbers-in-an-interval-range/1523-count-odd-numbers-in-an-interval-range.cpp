@@ -5,8 +5,6 @@ public:
         if(low % 2 != 0 or high % 2 != 0){
             ans++;
         }
-        // if(low % 2 != 0)
-        //     ans++;
         ans += (high - low) / 2;
         return ans;
     }
