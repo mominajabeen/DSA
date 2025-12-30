@@ -34,6 +34,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0342-power-of-four](https://github.com/mominajabeen/DSA/tree/master/0342-power-of-four) |
 | [0679-24-game](https://github.com/mominajabeen/DSA/tree/master/0679-24-game) |
 | [0830-largest-triangle-area](https://github.com/mominajabeen/DSA/tree/master/0830-largest-triangle-area) |
+| [0840-magic-squares-in-grid](https://github.com/mominajabeen/DSA/tree/master/0840-magic-squares-in-grid) |
 | [0867-new-21-game](https://github.com/mominajabeen/DSA/tree/master/0867-new-21-game) |
 | [1018-largest-perimeter-triangle](https://github.com/mominajabeen/DSA/tree/master/1018-largest-perimeter-triangle) |
 | [1426-find-n-unique-integers-sum-up-to-zero](https://github.com/mominajabeen/DSA/tree/master/1426-find-n-unique-integers-sum-up-to-zero) |
@@ -169,6 +170,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0759-set-intersection-size-at-least-two](https://github.com/mominajabeen/DSA/tree/master/0759-set-intersection-size-at-least-two) |
 | [0794-swim-in-rising-water](https://github.com/mominajabeen/DSA/tree/master/0794-swim-in-rising-water) |
 | [0830-largest-triangle-area](https://github.com/mominajabeen/DSA/tree/master/0830-largest-triangle-area) |
+| [0840-magic-squares-in-grid](https://github.com/mominajabeen/DSA/tree/master/0840-magic-squares-in-grid) |
 | [0944-delete-columns-to-make-sorted](https://github.com/mominajabeen/DSA/tree/master/0944-delete-columns-to-make-sorted) |
 | [0960-delete-columns-to-make-sorted-iii](https://github.com/mominajabeen/DSA/tree/master/0960-delete-columns-to-make-sorted-iii) |
 | [1006-vowel-spellchecker](https://github.com/mominajabeen/DSA/tree/master/1006-vowel-spellchecker) |
@@ -264,6 +266,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0417-pacific-atlantic-water-flow](https://github.com/mominajabeen/DSA/tree/master/0417-pacific-atlantic-water-flow) |
 | [0498-diagonal-traverse](https://github.com/mominajabeen/DSA/tree/master/0498-diagonal-traverse) |
 | [0794-swim-in-rising-water](https://github.com/mominajabeen/DSA/tree/master/0794-swim-in-rising-water) |
+| [0840-magic-squares-in-grid](https://github.com/mominajabeen/DSA/tree/master/0840-magic-squares-in-grid) |
 | [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/mominajabeen/DSA/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/mominajabeen/DSA/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1628-count-submatrices-with-all-ones](https://github.com/mominajabeen/DSA/tree/master/1628-count-submatrices-with-all-ones) |
@@ -354,6 +357,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0037-sudoku-solver](https://github.com/mominajabeen/DSA/tree/master/0037-sudoku-solver) |
 | [0166-fraction-to-recurring-decimal](https://github.com/mominajabeen/DSA/tree/master/0166-fraction-to-recurring-decimal) |
 | [0756-pyramid-transition-matrix](https://github.com/mominajabeen/DSA/tree/master/0756-pyramid-transition-matrix) |
+| [0840-magic-squares-in-grid](https://github.com/mominajabeen/DSA/tree/master/0840-magic-squares-in-grid) |
 | [1006-vowel-spellchecker](https://github.com/mominajabeen/DSA/tree/master/1006-vowel-spellchecker) |
 | [1264-maximum-number-of-words-you-can-type](https://github.com/mominajabeen/DSA/tree/master/1264-maximum-number-of-words-you-can-type) |
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/mominajabeen/DSA/tree/master/1353-find-resultant-array-after-removing-anagrams) |
