@@ -29,6 +29,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0066-plus-one](https://github.com/mominajabeen/DSA/tree/master/0066-plus-one) |
 | [0166-fraction-to-recurring-decimal](https://github.com/mominajabeen/DSA/tree/master/0166-fraction-to-recurring-decimal) |
 | [0326-power-of-three](https://github.com/mominajabeen/DSA/tree/master/0326-power-of-three) |
 | [0342-power-of-four](https://github.com/mominajabeen/DSA/tree/master/0342-power-of-four) |
@@ -160,6 +161,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0011-container-with-most-water](https://github.com/mominajabeen/DSA/tree/master/0011-container-with-most-water) |
 | [0036-valid-sudoku](https://github.com/mominajabeen/DSA/tree/master/0036-valid-sudoku) |
 | [0037-sudoku-solver](https://github.com/mominajabeen/DSA/tree/master/0037-sudoku-solver) |
+| [0066-plus-one](https://github.com/mominajabeen/DSA/tree/master/0066-plus-one) |
 | [0120-triangle](https://github.com/mominajabeen/DSA/tree/master/0120-triangle) |
 | [0407-trapping-rain-water-ii](https://github.com/mominajabeen/DSA/tree/master/0407-trapping-rain-water-ii) |
 | [0417-pacific-atlantic-water-flow](https://github.com/mominajabeen/DSA/tree/master/0417-pacific-atlantic-water-flow) |
