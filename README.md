@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0085-maximal-rectangle](https://github.com/mominajabeen/DSA/tree/master/0085-maximal-rectangle) |
 | [0120-triangle](https://github.com/mominajabeen/DSA/tree/master/0120-triangle) |
 | [0712-minimum-ascii-delete-sum-for-two-strings](https://github.com/mominajabeen/DSA/tree/master/0712-minimum-ascii-delete-sum-for-two-strings) |
 | [0867-new-21-game](https://github.com/mominajabeen/DSA/tree/master/0867-new-21-game) |
@@ -168,6 +169,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0036-valid-sudoku](https://github.com/mominajabeen/DSA/tree/master/0036-valid-sudoku) |
 | [0037-sudoku-solver](https://github.com/mominajabeen/DSA/tree/master/0037-sudoku-solver) |
 | [0066-plus-one](https://github.com/mominajabeen/DSA/tree/master/0066-plus-one) |
+| [0085-maximal-rectangle](https://github.com/mominajabeen/DSA/tree/master/0085-maximal-rectangle) |
 | [0120-triangle](https://github.com/mominajabeen/DSA/tree/master/0120-triangle) |
 | [0407-trapping-rain-water-ii](https://github.com/mominajabeen/DSA/tree/master/0407-trapping-rain-water-ii) |
 | [0417-pacific-atlantic-water-flow](https://github.com/mominajabeen/DSA/tree/master/0417-pacific-atlantic-water-flow) |
@@ -275,6 +277,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0036-valid-sudoku](https://github.com/mominajabeen/DSA/tree/master/0036-valid-sudoku) |
 | [0037-sudoku-solver](https://github.com/mominajabeen/DSA/tree/master/0037-sudoku-solver) |
+| [0085-maximal-rectangle](https://github.com/mominajabeen/DSA/tree/master/0085-maximal-rectangle) |
 | [0407-trapping-rain-water-ii](https://github.com/mominajabeen/DSA/tree/master/0407-trapping-rain-water-ii) |
 | [0417-pacific-atlantic-water-flow](https://github.com/mominajabeen/DSA/tree/master/0417-pacific-atlantic-water-flow) |
 | [0498-diagonal-traverse](https://github.com/mominajabeen/DSA/tree/master/0498-diagonal-traverse) |
@@ -296,6 +299,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/mominajabeen/DSA/tree/master/0020-valid-parentheses) |
+| [0085-maximal-rectangle](https://github.com/mominajabeen/DSA/tree/master/0085-maximal-rectangle) |
 | [1628-count-submatrices-with-all-ones](https://github.com/mominajabeen/DSA/tree/master/1628-count-submatrices-with-all-ones) |
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/mominajabeen/DSA/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 | [2211-count-collisions-on-a-road](https://github.com/mominajabeen/DSA/tree/master/2211-count-collisions-on-a-road) |
@@ -303,6 +307,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Monotonic Stack
 |  |
 | ------- |
+| [0085-maximal-rectangle](https://github.com/mominajabeen/DSA/tree/master/0085-maximal-rectangle) |
 | [1628-count-submatrices-with-all-ones](https://github.com/mominajabeen/DSA/tree/master/1628-count-submatrices-with-all-ones) |
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/mominajabeen/DSA/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 ## Enumeration
